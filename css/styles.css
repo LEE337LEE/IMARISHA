@@ -16,3 +16,22 @@
     }
   
   }
+  
+
+  #contact h2{
+    text-align: center;
+  }
+  
+  #contactdetails h2{
+    text-align: left;
+  }
+  #contact{
+    color: brown;
+    background-color: wheat;
+    padding: 100px;
+    margin-top: 10px;
+    margin-bottom:0%;
+    position: abosolute;
+    text-align: center;
+  
+    }
