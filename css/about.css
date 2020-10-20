@@ -14,3 +14,15 @@ h1{
 body{
     background-color:cornsilk;
 }
+.form{
+    text-align: center;
+    color: blueviolet;
+    text-decoration: brown;
+    font-size: auto;
+}
+.type ,.button{
+    text-align: center;
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
