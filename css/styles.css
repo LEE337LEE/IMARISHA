@@ -2,10 +2,10 @@
     animation: bounce 3s infinite;
     text-align: center;
     font-style: oblique;
-    color: orangered;
+    color: white;
   }
   .eve{
-    color:orangered;
+    color:white;
   }
   @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
