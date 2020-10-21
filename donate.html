@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Donate</title>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+ <style>
+    .button {
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+    
+    .button1 {background-color: #4CAF50;} /* Green */
+    .button2 {background-color: #008CBA;} /* Blue */
+    body {
+  background-image: url(https://files.globalgiving.org/pfil/41154/pict_large.jpg?m=1562918031000);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 80% 60%;
+  background-position: bottom;
+  background-color:darkslategray;
+}
+    </style>
+</head>
+<body>
+<div class="header">
+  <h1><u>DONATE</u></h1>
+  <p>For local donations, please use the M-pesa button and use the lipa na M-PESA till. Please press okay once you receive the M-pesa message.</p>
+  <div>
+   <button1 onclick class="button button1"></button>
+   <button1 onclick="myFunction()">M-PESA</button>
+   <script>
+     function myFunction() {
+     alert("TILL NO.:804267");
+    }
+   </script>
+  </div>
+  <p>For foreign donors please click the Paypal button and follow the steps.</p>
+  <button2 class="button button2"></button>
+  <button2 onclick ="window.location.href='https://www.paypal.com/donate?hosted_button_id=N29WBWS5H2ZKN';">PAYPAL</button>
+
+</div>
+</body>
+</html>
