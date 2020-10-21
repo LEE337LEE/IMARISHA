@@ -1,5 +1,6 @@
 h1{
     text-align: center;
+    color:navajowhite;
 }
 body{
     background-color:darkslategray;
@@ -77,6 +78,15 @@ html {
     background-color: darkslategray;
     height: 300px;
     width: 500px;
+    
+}
+.card-text1 , .card-text2{
+    font-size: 22px;
+}
+#pgn{
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
 }
 
 
