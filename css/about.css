@@ -1,0 +1,99 @@
+h1{
+    text-align: center;
+    color:navajowhite;
+}
+body{
+    background-color:darkslategray;
+    color: white;
+}
+.form{
+    /* text-align: center; */
+    color: blueviolet;
+    text-decoration: brown;
+    font-size: auto;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.type ,.button{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+html {
+    box-sizing: border-box;
+}
+
+*:after {
+    box-sizing: inherit;
+}
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+}
+
+
+
+.container {
+    padding: 0 16px;
+    color: white;
+    background-color: darkslategray;
+}
+.card{
+    background-color: darkslategray;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 10px;  
+}
+.card-text1 , .card-text2{
+    font-size: 22px;
+}
+#pgn{
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+}
+.image{
+    height: 150px;
+    width: 150px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+ /* #team{
+    text-align: center;
+    color:navajowhite; 
+}  */
+
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color:gray;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+    .bett {
+        width: 100%;
+        display: block;
+    }
+}
+h2{
+    color:yellowgreen;
+}
+p{
+    font-size: 20px;
+}
